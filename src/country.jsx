@@ -50,12 +50,12 @@ const Country = ({ countries }) => {
 					<div className="flex flex-col place-items-center">
 						<span className="text-lg font-serif font-bold">{d.Country}</span>
 						<span className="text-xs font-serif text-gray-600">
-							🌍 {d.Continent} - Population: 📊
+							🌍 {d.Continent} - Population: 📊{" "}
 							<NumericFormat
-								value={d.Population}
-								allowNegative
-								thousandSeparator=","
 								disabled
+								allowNegative
+								value={d.Population}
+								thousandSeparator=","
 							/>
 						</span>
 					</div>
@@ -76,10 +76,16 @@ const Country = ({ countries }) => {
 							src={cases}
 							className="w-16 h-16 object-cover"
 						/>
-						<ol>
+						<ol className="p-0">
 							<li className="text-center">
 								TOTAL:{" "}
-								<span className="text-sm text-blue-500">{d.TotalCases}</span>
+								<NumericFormat
+									disabled
+									allowNegative
+									value={d.TotalCases}
+									thousandSeparator=","
+									className="text-sm text-blue-500"
+								/>
 							</li>
 							<li className="text-center">
 								ACTIVE:{" "}

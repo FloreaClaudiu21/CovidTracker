@@ -3,6 +3,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import cases from "./assets/cases.png";
 import cures from "./assets/cures.png";
 import deaths from "./assets/deaths.png";
+import { NumericFormat } from "react-number-format";
 
 const Country = ({ countries }) => {
 	const { id } = useParams();
@@ -49,7 +50,11 @@ const Country = ({ countries }) => {
 					<div className="flex flex-col place-items-center">
 						<span className="text-lg font-serif font-bold">{d.Country}</span>
 						<span className="text-xs font-serif text-gray-600">
-							🌍 {d.Continent} - Population: 📊{d.Population}
+							🌍 {d.Continent} - Population: 📊
+							<NumericFormat
+								value={d.Population}
+								allowNegative
+							/>
 						</span>
 					</div>
 					<img

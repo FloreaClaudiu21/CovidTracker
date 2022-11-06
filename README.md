@@ -1,70 +1,27 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<div style="display: flex; flex-direction: column; justify-content: center; place-items: center;">
+	<img src="https://i.ibb.co/2tDrtmw/SARS-Co-V-2-without-background.png" width="320px" height="320px"  alt="" />
+	<p style="text-align: center; color: red; font-size: 36px; font-style: bold; text-decoration: underline;">COVID19 TRACKER</p>
+</div>
+<div>
+	<p style="text-align: center; font-size: 25px">
+	COVID-19 Tracker its a web application created using ReactJS, TailwindCSS and RapidAPI. The main purpose and feature of the application is to retrieve information about a country's latest COVID-19 cases, deaths, and recoveries. This application uses RapidAPI (VACCOVID API) to retrive the information.
+	</p>
+	<h1>
+	I. How does it work?
+	</h1>
+	<p style="font-size: 23px; text-decoration: underline;">
+	1. First you must select a country from the dropdown menu:
+	</p>
+	<img src="https://im3.ezgif.com/tmp/ezgif-3-bfa8900e30.gif" alt="" width="100%" height="400px" />
+	<p style="font-size: 23px; text-decoration: underline;">
+	2. Click on the "Get Info" button, you gonna be redirected to a specific country page where you can see all the informations.
+	</p>
+	<img src="https://im3.ezgif.com/tmp/ezgif-3-acffb03fe3.gif" alt="" width="100%" height="400px" />
+	<h1>
+	II. Wanna try yourself?
+	</h1>
+	<p style="text-align: center; font-size: 23px; ">
+	The application is hosted on Netlify, live preview can be found at the following address: https://covid-datatracker.netlify.app.
+	</p>
+	<span style="text-align: center; font-size: 23px; font-weight: bold; ">-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-</span>
+</div>

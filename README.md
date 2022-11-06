@@ -2,10 +2,9 @@
 	<img align="center" src="https://i.ibb.co/2tDrtmw/SARS-Co-V-2-without-background.png" width="320px" height="320px"  alt="" />
 	<p align="center" style="color: red; font-size: 36px; font-style: bold;"><h4>COVID19 TRACKER</h4></p>
 </div>
-<div style="width: 100%">
-	<p align="center" style="font-size: 25px">
+<p align="center" style="font-size: 25px">
 	COVID-19 Tracker its a web application created using ReactJS, TailwindCSS and RapidAPI. The main purpose and feature of the application is to retrieve information about a country's latest COVID-19 cases, deaths, and recoveries. This application uses RapidAPI (VACCOVID API) to retrive the information.
-	</p>
+</p>
 	<h1>
 	I. How does it work?
 	</h1>
@@ -24,4 +23,4 @@
 	The application is hosted on Netlify, live preview can be found at the following address: https://covid-datatracker.netlify.app.
 	</p>
 	<span align="center" style="font-size: 23px;">-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-</span>
-</div>
+

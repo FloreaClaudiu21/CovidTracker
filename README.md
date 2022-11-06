@@ -1,4 +1,4 @@
-<div style="width: 100vw; display: flex; flex-direction: column; justify-content: center; place-items: center;">
+<div align="center" style="width: 100vw; display: flex; flex-direction: column; justify-content: center; place-items: center;">
 	<img align="center" src="https://i.ibb.co/2tDrtmw/SARS-Co-V-2-without-background.png" width="320px" height="320px"  alt="" />
 	<p align="center" style="text-align: center; color: red; font-size: 36px; font-style: bold; text-decoration: underline;"><h4>COVID19 TRACKER</h4></p>
 </div>

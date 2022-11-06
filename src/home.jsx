@@ -38,7 +38,7 @@ const Home = ({ countries }) => {
 							</span>
 							<select
 								ref={selRef}
-								defaultValue="France"
+								defaultValue="Australia"
 								className="px-1 h-6 text-sm font-sans font-bold bg-slate-100 hover:bg-slate-200 w-3/4 mx-auto border-none rounded-sm"
 							>
 								{countries.map(({ data }) => {
@@ -58,7 +58,7 @@ const Home = ({ countries }) => {
 									navigate("/" + selc, { replace: true });
 									return;
 								}}
-								className="text-sm bg-red-400 p-2 rounded-md font-semibold text-white shadow-md hover:bg-red-600"
+								className="text-sm bg-red-400 p-2 rounded-md font-semibold text-white shadow-md hover:bg-red-600 hover:scale-110 transition-all delay-75"
 							>
 								Get Info
 							</button>

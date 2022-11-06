@@ -12,16 +12,15 @@
 	<p style="font-size: 23px; text-decoration: underline;">
 	1. First you must select a country from the dropdown menu:
 	</p>
-	<img src="https://im3.ezgif.com/tmp/ezgif-3-bfa8900e30.gif" alt="" width="50%" height="400px" />
+	<img src="https://im3.ezgif.com/tmp/ezgif-3-bfa8900e30.gif" alt="" width="75%" height="430px" />
 	<p style="font-size: 23px; text-decoration: underline;">
 	2. Click on the "Get Info" button, you gonna be redirected to a specific country page where you can see all the informations.
 	</p>
-	<img src="https://im3.ezgif.com/tmp/ezgif-3-acffb03fe3.gif" alt="" width="50%" height="400px" style="margin: auto" />
+	<img src="https://im3.ezgif.com/tmp/ezgif-3-acffb03fe3.gif" alt="" width="75%" height="430px"/>
 	<h1>
 	II. Wanna try yourself?
 	</h1>
 	<p style="text-align: center; font-size: 23px; ">
 	The application is hosted on Netlify, live preview can be found at the following address: https://covid-datatracker.netlify.app.
 	</p>
-	<span style="text-align: center; font-size: 23px; font-weight: bold; ">-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-</span>
 </div>

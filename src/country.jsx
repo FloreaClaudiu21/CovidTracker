@@ -54,6 +54,8 @@ const Country = ({ countries }) => {
 							<NumericFormat
 								value={d.Population}
 								allowNegative
+								thousandSeparator=","
+								disabled
 							/>
 						</span>
 					</div>

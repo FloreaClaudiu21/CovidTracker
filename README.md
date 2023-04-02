@@ -6,7 +6,7 @@
 	COVID-19 Tracker is a powerful web application created with ReactJS and TailwindCSS that aims to provide up-to-date information about COVID-19 cases worldwide. The main feature of the application is to retrieve the latest COVID-19 cases, deaths, and recoveries data for any country around the world.
 	To accomplish this, the application uses the VACCOVID API provided by RapidAPI, which is a reliable and accurate source of information about COVID-19 cases. By leveraging this API, the COVID-19 Tracker application provides real-time information about the pandemic that is updated regularly to ensure accuracy and reliability.
 	The application's user interface is intuitive and easy to navigate, making it accessible to users of all skill levels. Users can select any country from the dropdown list to view the latest COVID-19 statistics, including confirmed cases, deaths, and recoveries.
-	Overall, COVID-19 Tracker is a valuable resource for anyone looking for the latest information about COVID-19 cases worldwide. With its powerful features, intuitive user interface, and reliable data sources, this application provides a comprehensive view of the pandemic's impact on a global scale. Try it out today at https://covid-tracker-webapp.netlify.app/.
+	Overall, COVID-19 Tracker is a valuable resource for anyone looking for the latest information about COVID-19 cases worldwide. With its powerful features, intuitive user interface, and reliable data sources, this application provides a comprehensive view of the pandemic's impact on a global scale. Try it out today at https://covid-datatracker.netlify.app/.
 </p>
 	<h3>
 	I. How does it work?
